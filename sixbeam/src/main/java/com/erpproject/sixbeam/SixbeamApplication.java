@@ -16,7 +16,7 @@ public class  SixbeamApplication {
 		SpringApplication.run(SixbeamApplication.class,args);
 	}
 
-	@PostConstruct
+	/*@PostConstruct
 	public void startFastApiServer() {
 		try {
 			// 프로젝트 루트 경로를 기준으로 상대 경로 설정
@@ -50,6 +50,6 @@ public class  SixbeamApplication {
 						System.out.println("FastAPI 서버 PID " + processHandle.pid() + " 가 종료되었습니다.");
 					});
 		}
-	}
+	}*/
 
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-241.14494.240">
-    <data-source name="@localhost" uuid="2aafff8b-9cda-42ca-a8d4-b9a070493ab3">
+    <data-source name="sixbeam_ec2_db" uuid="2aafff8b-9cda-42ca-a8d4-b9a070493ab3">
       <database-info product="MySQL" version="8.0.37" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.37" exact-driver-version="8.2">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -17,6 +17,10 @@
           </node>
         </introspection-scope>
       </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>149edfa4-094a-4b0a-9816-1a7a0a5a327d</ssh-config-id>
+      </ssh-properties>
     </data-source>
   </component>
 </project>

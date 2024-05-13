@@ -26,7 +26,7 @@ import java.util.Optional;
 public class HomeController {
     private final EstimateService estimateService;
     private final OrinPutService orinPutService;
-//    private final OrderService orderService;
+    private final OrderService orderService;
     private final EmpInfoService empInfoService;
     private final EmpInfoRepository empInfoRepository;
     private final GrapeService grapeService;
@@ -40,7 +40,7 @@ public class HomeController {
         GrapeForm inputGrapeForm = grapeService.getGrapePredictions(url2);
         model.addAttribute("saleGrapeForm", saleGrapeForm);
         model.addAttribute("inputGrapeForm", inputGrapeForm);
-//        orderService.getList();
+        orderService.getList();
         model.addAttribute("estimateEntities",estimateEntities);
         model.addAttribute("orinPutEntities",orinPutEntities);
         return "contents/home/home_form";

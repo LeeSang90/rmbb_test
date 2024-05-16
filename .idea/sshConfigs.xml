@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="54.180.105.82" id="149edfa4-094a-4b0a-9816-1a7a0a5a327d" keyPath="D:\Develop\EC2\sixbeam_kp.pem" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
+      <sshConfig host="15.164.222.16" id="149edfa4-094a-4b0a-9816-1a7a0a5a327d" keyPath="D:\Develop\EC2\sixbeam_kp.pem" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
     </configs>
   </component>
 </project>

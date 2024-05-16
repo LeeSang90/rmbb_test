@@ -34,8 +34,8 @@ public class HomeController {
     public String sixbeam_main(Model model) {
         List<EstimateEntity> estimateEntities =estimateService.getList();
         List<OrinPutEntity> orinPutEntities=orinPutService.getList();
-        String url = "http://localhost:8000/sales-summary";
-        String url2 = "http://localhost:8000/input-summary";
+        String url = "http://54.180.105.82:3306/sales-summary";
+        String url2 = "http://54.180.105.82:3306/input-summary";
         GrapeForm saleGrapeForm = grapeService.getGrapePredictions(url);
         GrapeForm inputGrapeForm = grapeService.getGrapePredictions(url2);
         model.addAttribute("saleGrapeForm", saleGrapeForm);

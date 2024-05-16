@@ -21,8 +21,8 @@ public class ExceptionHandlingController implements ErrorController {
     // 에러 페이지 정의
     private final String ERROR_403_PAGE_PATH = "/error/403";
     private final String ERROR_404_PAGE_PATH = "/error/404";
-//    private final String ERROR_500_PAGE_PATH = "/error/500";
-    private final String ERROR_500_PAGE_PATH = "/hr/empinfo/list";
+    private final String ERROR_500_PAGE_PATH = "/error/500";
+//    private final String ERROR_500_PAGE_PATH = "/hr/empinfo/list";
     private final String ERROR_ETC_PAGE_PATH = "/error/error";
 
     @RequestMapping(value = "/error")
